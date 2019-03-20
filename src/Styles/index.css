@@ -12,8 +12,8 @@
   --dark-red: #98001D;
   --trump: #FB8400;
   --sunflower: #FED600;
-  --hungrycaterpillar: #008C00;
-  --darkgray: #81726F;
+  --hungry-caterpillar: #008C00;
+  --dark-gray: #81726F;
   --gray: #BEA6A0;
 }
 
@@ -23,11 +23,6 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-}
-
-a {
-  text-decoration: none;
-  color: var(--notdodgerblue);
 }
 
 .page-heading {
