@@ -7,7 +7,6 @@
 }
 
 nav {
-  /* background: lightgreen; */
   position: fixed;
   top: 0;
   height: 80px;
@@ -34,12 +33,9 @@ nav a {
 }
 
 .content {
-  /* background: lightgoldenrodyellow; */
   width: calc(100vw - 160px);
   height: calc(100vh - 160px);
   display: flex;
-  /* align-items: center; */
-  /* justify-content: center; */
   flex-direction: column;
 }
 
@@ -83,7 +79,6 @@ nav a {
   text-decoration: none;
   color: var(--notdodgerblue);
 }
-
 
 /* FIRST NAME COLOURS */
 
