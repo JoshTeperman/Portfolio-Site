@@ -115,7 +115,7 @@ hr {
 @media only screen and (max-width: 1135px) {
   
   .container {
-    background: green;
+    /* background: green; */
   }
   
   .content {
@@ -151,18 +151,24 @@ hr {
   }
 
   .welcome-message {
-    background: dodgerblue;
+    background: white;
     width: 100%;
-    height: calc(100% - 375px - 60px);
-    margin: 60px 0 0 0;
-    /* justify-content: space; */
+    height: calc(100% - 375px);
+    margin: 0;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+  }
+
+  .welcome-message p {
+    width: 70%;
   }
 
   hr {
-    /* display: block; */
     display: inline-block;
     width: 60px;
-    /* text-align: center; */
+    height: 1px;
+    background-color: var(--dark-gray)
   }
   
 }
