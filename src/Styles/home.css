@@ -26,6 +26,11 @@ nav ul {
 nav li {
   margin: 0 10px;
   font-size: 13px;
+  color: var(--dark-gray);
+}
+
+nav a {
+  color: var(--dark-gray);
 }
 
 .content {
@@ -39,8 +44,7 @@ nav li {
 }
 
 .heading {
-  /* background: gray; */
-  width: 100%
+  width: 100%;
 }
 
 .letter {
@@ -48,13 +52,14 @@ nav li {
   font-size: 250px;
   font-weight: bold;
   letter-spacing: -45px;
-  opacity: 0.65;
+  opacity: 0.75;
   line-height: 180px;
-  /* mix-blend-mode: darken; */
+  display: inline-block;
 }
 
 .firstname {
   padding-top: 6px;
+
 }
 
 .welcome-message {
@@ -69,12 +74,75 @@ nav li {
 .welcome-message p {
   /* margin: 20px; */
   font-size: 30px;
-  color: var(--darkgray);
+  color: var(--dark-gray);
   font-weight: 100;
   
 }
 
+.welcome-message a {
+  text-decoration: none;
+  color: var(--notdodgerblue);
+}
 
+
+/* FIRST NAME COLOURS */
+
+.firstname .letter:nth-child(1) {
+  color: var(--sunflower);
+  padding-right: 20px;
+}
+
+.firstname .letter:nth-child(2) {
+  color: var(--trump);
+  transform: rotate(45deg);
+  position: relative;
+  bottom: 12px;
+  /* left: 20px; */
+  /* padding-right: 40px; */
+}
+
+.firstname .letter:nth-child(3) {
+  color: var(--dark-red);
+  padding-left: 5px;
+}
+
+.firstname .letter:nth-child(4) {
+  color: var(--fire-engine);
+}
+
+/* LAST NAME COLOURS */
+
+.lastname .letter:nth-child(1) {
+  color: var(--sunflower);
+}
+
+.lastname .letter:nth-child(2) {
+  color: var(--fire-engine);
+}
+
+.lastname .letter:nth-child(3) {
+  color: var(--trump);
+}
+
+.lastname .letter:nth-child(4) {
+  color: var(--dark-red);
+}
+
+.lastname .letter:nth-child(5) {
+  color: var(--hungry-caterpillar);
+}
+
+.lastname .letter:nth-child(6) {
+  color: var(--sunflower);
+}
+
+.lastname .letter:nth-child(7) {
+  color: var(--fire-engine);
+}
+
+.lastname .letter:nth-child(8) {
+  color: var(--trump);
+}
 
 /* <div class="letters">
     <span>A</span><span>B</span><span>C</span>
