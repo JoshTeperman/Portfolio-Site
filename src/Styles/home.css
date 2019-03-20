@@ -28,7 +28,7 @@
 
 .welcome-message {
   height: calc(100% - 366px);
-  width: 800px;
+  width: 820px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -47,6 +47,9 @@
   color: var(--notdodgerblue);
 }
 
+hr {
+  display: none;
+}
 
 /* FIRST NAME COLOURS */
 
@@ -152,10 +155,16 @@
     width: 100%;
     height: calc(100% - 375px - 60px);
     margin: 60px 0 0 0;
+    /* justify-content: space; */
   }
 
-  /* add separator between p */
-
+  hr {
+    /* display: block; */
+    display: inline-block;
+    width: 60px;
+    /* text-align: center; */
+  }
+  
 }
 
 /* MEDIA QUERIES: MOBILE */
