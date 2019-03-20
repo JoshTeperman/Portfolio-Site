@@ -150,6 +150,8 @@
   .welcome-message {
     background: dodgerblue;
     width: 100%;
+    height: calc(100% - 375px - 60px);
+    margin: 60px 0 0 0;
   }
 
   /* add separator between p */
