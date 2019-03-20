@@ -29,7 +29,7 @@ nav li {
 }
 
 .content {
-  background: dodgerblue;
+  background: lightgoldenrodyellow;
   width: calc(100vw - 120px);
   height: calc(100vh - 120px);
   display: flex;
@@ -55,16 +55,17 @@ nav li {
 
 .firstname {
   padding-top: 6px;
-
 }
 
 .welcome-message {
 
 }
 
-.welcome-message {
-
+.welcome-message p {
+  font-size: 36px;
 }
+
+
 
 /* <div class="letters">
     <span>A</span><span>B</span><span>C</span>
