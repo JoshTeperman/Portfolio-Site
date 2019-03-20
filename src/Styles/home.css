@@ -13,25 +13,6 @@
   flex-direction: column;
 }
 
-.letters {
-  width: 100%;
-}
-
-.firstname {
-  padding-top: 6px;
-  width: 100%;
-}
-
-.lastname-abridged1 {
-  display: none;
-  width: 100%;
-}
-
-.lastname-abridged2 {
-  display: none;
-  width: 100%;
-}
-
 .welcome-message {
   height: calc(100% - 366px);
   width: 800px;
@@ -46,14 +27,12 @@
   font-size: 30px;
   color: var(--dark-gray);
   font-weight: 100;
-  
 }
 
 .welcome-message a {
   text-decoration: none;
   color: var(--notdodgerblue);
 }
-
 
 
 /* MEDIA QUERIES: TABLET */
@@ -64,25 +43,7 @@
     background: green;
   }
 
-  nav {
-    height: 60px;
-    top: calc(100vh - 60px);  
-  }
-
-  nav ul {
-    justify-content: center;
-  }
-
-  .letters {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-
-    /* span height to 100px */
-    /* display: flex; */
-  }
+  
 
   .content {
     height: calc(100vh - 120px);
@@ -92,44 +53,14 @@
     justify-content: space-between;
   }
 
-  .firstname {
-    position: relative;
-    top: 0px;
-    padding: 0px;
-    display: flex;
-    justify-content: center;
-  }
-
-  .lastname {
-    display: none;
-  }
-
-  .lastname-abridged1 {
-    display: flex;
-    justify-content: center;
-    /* justify-content: center; */
-    /* align-items: center; */
-  }
-
-  .lastname-abridged2 {
-    display: flex;
-    justify-content: center;
-  }
+  
 
   .welcome-message {
     background: dodgerblue;
     width: 100%;
   }
 
-  span {
-    margin: 0;
-    font-size: 180px; 
-    font-weight: bold;
-    /* letter-spacing: -24px;; */
-    opacity: 0.75;
-    line-height: 191px;
-    display: inline-block;
-  }
+
  
 
   /* add separator between p */
