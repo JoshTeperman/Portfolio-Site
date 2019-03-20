@@ -7,10 +7,10 @@
 }
 
 nav {
-  background: lightgreen;
+  /* background: lightgreen; */
   position: fixed;
   top: 0;
-  height: 60px;
+  height: 80px;
   width: 100vw;
 }
 
@@ -29,9 +29,9 @@ nav li {
 }
 
 .content {
-  background: lightgoldenrodyellow;
-  width: calc(100vw - 120px);
-  height: calc(100vh - 120px);
+  /* background: lightgoldenrodyellow; */
+  width: calc(100vw - 160px);
+  height: calc(100vh - 160px);
   display: flex;
   /* align-items: center; */
   /* justify-content: center; */
@@ -39,7 +39,7 @@ nav li {
 }
 
 .heading {
-  background: gray;
+  /* background: gray; */
   width: 100%
 }
 
@@ -58,11 +58,20 @@ nav li {
 }
 
 .welcome-message {
+  height: 100%;
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 
 }
 
 .welcome-message p {
-  font-size: 36px;
+  margin: 20px;
+  font-size: 27px;
+  color: var(--darkgray);
+  font-weight: 100;
+  
 }
 
 
