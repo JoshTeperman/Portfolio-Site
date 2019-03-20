@@ -1,0 +1,37 @@
+nav {
+  position: fixed;
+  top: 0;
+  height: 80px;
+  width: 100vw;
+}
+
+nav ul {
+  height: 100%;
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 10px 0 0;
+  align-items: center;
+}
+
+nav li {
+  margin: 0 10px;
+  font-size: 13px;
+  color: var(--dark-gray);
+}
+
+nav a {
+  color: var(--dark-gray);
+}
+
+
+@media only screen and (max-width: 1135px) {
+  nav {
+    height: 60px;
+    top: calc(100vh - 60px);  
+  }
+
+  nav ul {
+    justify-content: center;
+  }
+}
