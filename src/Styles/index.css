@@ -1,0 +1,29 @@
+@import 'home.css';
+@import 'about.css';
+@import 'projects.css';
+@import './contact.css';
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+
+:root {
+  /*  colours  */
+
+}
+
+* {
+  margin: 0px;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.page-heading {
+/* justify to the left */
+}
+
+.page-heading h1 {
+/* size, font, letter-spacing */
+}
+
+

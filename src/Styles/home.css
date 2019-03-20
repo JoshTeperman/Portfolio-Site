@@ -1,0 +1,82 @@
+.container {
+  height: 100vh;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav {
+  background: lightgreen;
+  position: fixed;
+  top: 0;
+  height: 60px;
+  width: 100vw;
+}
+
+nav ul {
+  height: 100%;
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 10px 0 0;
+  align-items: center;
+}
+
+nav li {
+  margin: 0 10px;
+  font-size: 13px;
+}
+
+.content {
+  background: dodgerblue;
+  width: calc(100vw - 120px);
+  height: calc(100vh - 120px);
+  display: flex;
+  /* align-items: center; */
+  /* justify-content: center; */
+  flex-direction: column;
+}
+
+.heading {
+  background: gray;
+  width: 100%
+}
+
+.letter {
+  margin: 0;
+  font-size: 215px;
+  font-weight: bold;
+  letter-spacing: -35px;
+  opacity: 0.65;
+  line-height: 153px;
+  /* mix-blend-mode: darken; */
+}
+
+.firstname {
+  padding-top: 6px;
+
+}
+
+.welcome-message {
+
+}
+
+.welcome-message {
+
+}
+
+/* <div class="letters">
+    <span>A</span><span>B</span><span>C</span>
+</div>​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​
+
+.letters {
+    height:8px;
+    line-height:16px;
+    border-bottom:1px solid green;
+    position:relative;
+}
+.letters > span {
+    float:left;
+    -webkit-transform: rotate(-90deg);
+}​ */
