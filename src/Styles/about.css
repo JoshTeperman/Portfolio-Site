@@ -84,29 +84,29 @@ img {
 
 /* TITLE COLOURS FOR TABLET & MOBILE  */
 
-.two-lines-first span:nth-child(1) {
+.about .two-lines-first span:nth-child(1) {
   color: var(--sunflower);
   padding-right: 20px;
 }
 
-.two-lines-first span:nth-child(2) {
+.about .two-lines-first span:nth-child(2) {
   color: var(--trump);
   padding-right: 15px;
 }
 
-.two-lines-first span:nth-child(3) {
+.about .two-lines-first span:nth-child(3) {
   color: var(--hungry-caterpillar);
   transform: rotate(45deg);
   position: relative;
   bottom: 12px;
 }
 
-.two-lines-second span:nth-child(1) {
+.about .two-lines-second span:nth-child(1) {
   color: var(--fire-engine);
   padding-left: 5px;
 }
 
-.two-lines-second span:nth-child(2) {
+.about .two-lines-second span:nth-child(2) {
   color: var(--dark-red);
 }
 
@@ -175,7 +175,7 @@ img {
     height: 1px;
     background-color: var(--dark-gray)
   }
-
+/* 
   .two-lines-first span:nth-child(1) {
     padding-right: 9px;
   }
@@ -187,7 +187,7 @@ img {
   .two-lines-first span:nth-child(3) {
     position: relative;
     bottom: 8px;  
-  }
+  } */
 
 }
 
