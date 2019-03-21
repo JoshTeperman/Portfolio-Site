@@ -7,14 +7,15 @@
 }
 
 .content {
-  background: lightgreen;
+  /* background: lightgreen; */
   width: calc(100vw - 160px);
   height: calc(100vh - 160px);
   display: flex;
   flex-direction: column;
 }
 
-.projects-header {
+.contact {
+
   position: relative;
   right: 20px;
 }
@@ -23,11 +24,142 @@
   display: none;
 }
 
-.project-tiles {
-  /* background: lightgreen; */
-  width: 100%;
+.contact-buttons {
+
+  width: 70%;
   height: 100%;
+  padding: 80px 0 30px 0;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  align-self: center;
   align-items: center;
+  flex-wrap: wrap;
+}
+
+/* COLOURS FOR DESKTOP */
+
+.contact span:nth-child(1) {
+  color: var(--sunflower);
+  padding-right: 20px;
+  /* position: relative:
+  left: 10px; */
+}
+
+.contact span:nth-child(2) {
+  color: var(--trump);
+  transform: rotate(45deg);
+  position: relative;
+  bottom: 12px;
+  /* padding-right: 15px; */
+}
+
+.contact span:nth-child(3) {
+  color: var(--fire-engine);
+
+}
+
+.contact span:nth-child(4) {
+  color: var(--hungry-caterpillar);
+}
+
+.contact span:nth-child(5) {
+  color: var(--sunflower);
+  padding-left: 5px;
+}
+
+.contact span:nth-child(6) {
+  color: var(--trump);
+  padding-left: 5px;
+}
+
+.contact span:nth-child(7) {
+  color: var(--dark-red);
+} 
+
+/* TITLE COLOURS FOR TABLET & MOBILE  */
+
+.contact .two-lines-first span:nth-child(1) {
+  color: var(--sunflower);
+  /* padding-right: 20px; */
+}
+
+.contact .two-lines-first span:nth-child(2) {
+  color: var(--trump);
+  transform: rotate(45deg);
+  position: relative;
+  bottom: 12px;
+  /* padding-right: 15px; */
+}
+
+.contact .two-lines-first span:nth-child(3) {
+  color: var(--hungry-caterpillar);
+
+}
+
+.contact .two-lines-first span:nth-child(4) {
+  color: var(--fire-engine);
+}
+
+.contact .two-lines-second span:nth-child(1) {
+  color: var(--fire-engine);
+  padding-left: 5px;
+}
+
+.contact .two-lines-second span:nth-child(2) {
+  color: var(--dark-red);
+}
+
+.contact .two-lines-second span:nth-child(3) {
+  color: var(--sunflower);
+  padding-left: 5px;
+}
+
+
+
+/* MEDIA QUERIES: TABLET: */
+
+@media only screen and (max-width: 1135px) {
+  
+  .contact {
+
+    position: unset;
+  }
+
+  .content {
+    width: calc(100vw - 120px);
+    height: calc(100vh - 120px);
+    /* height: auto; */
+  }
+  
+  .single-line {
+    display: none;
+  }
+
+  .two-lines-first, .two-lines-second {
+    display: flex;
+    justify-content: center;
+    /* padding-right: 15px;   */
+  }
+
+  .contact-buttons {
+    flex-wrap: wrap-reverse
+  }
+
+}
+
+/* MEDIA QUERIES: MOBILE */
+
+@media only screen and (max-width: 600px) {
+  .content {
+    width: calc(100vw - 60px);
+    height: calc(100vh - 60px);
+  }
+  
+  .projects {
+    width: 100%;
+    height: 174px;
+    display: flex;     
+    flex-direction: column;
+  }
+
 }
