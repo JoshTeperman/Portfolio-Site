@@ -31,7 +31,7 @@
   align-items: center;
 }
 
-/* FIRST NAME COLOURS FOR DESKTOP */
+/* COLOURS FOR DESKTOP */
 
 .projects span:nth-child(1) {
   color: var(--sunflower);
@@ -74,7 +74,7 @@
   color: var(--dark-red);
 }
 
-/* TITLE COLOURS FOR TABLET & MOBILE  */
+/* COLOURS FOR TABLET & MOBILE  */
 
 .projects .two-lines-first span:nth-child(1) {
   color: var(--sunflower);
@@ -183,3 +183,4 @@
   .tile:nth-child(n+2) {
     display: none;
   }
+}
