@@ -147,6 +147,9 @@
 
 }
 
+nav a {
+  color: red;
+}
 /* MEDIA QUERIES: MOBILE */
 
 @media only screen and (max-width: 600px) {
