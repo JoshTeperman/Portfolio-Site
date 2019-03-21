@@ -13,9 +13,22 @@
   flex-direction: column;
 }
 
+.firstname {
+  padding-top: 6px;
+  width: 100%;
+}
+
+.lastname-abridged1 {
+  display: none;
+}
+
+.lastname-abridged2 {
+  display: none;
+}
+
 .welcome-message {
   height: calc(100% - 366px);
-  width: 800px;
+  width: 820px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -34,36 +47,158 @@
   color: var(--notdodgerblue);
 }
 
+hr {
+  display: none;
+}
+
+/* FIRST NAME COLOURS */
+
+.firstname span:nth-child(1) {
+  color: var(--sunflower);
+  padding-right: 20px;
+}
+
+.firstname span:nth-child(2) {
+  color: var(--trump);
+  transform: rotate(45deg);
+  position: relative;
+  bottom: 12px;
+}
+
+.firstname span:nth-child(3) {
+  color: var(--dark-red);
+  padding-left: 5px;
+}
+
+.firstname span:nth-child(4) {
+  color: var(--fire-engine);
+}
+
+/* LAST NAME COLOURS */
+
+.lastname span:nth-child(1) {
+  color: var(--sunflower);
+}
+
+.lastname span:nth-child(2) {
+  color: var(--fire-engine);
+}
+
+.lastname span:nth-child(3) {
+  color: var(--trump);
+}
+
+.lastname span:nth-child(4) {
+  color: var(--dark-red);
+}
+
+.lastname span:nth-child(5) {
+  color: var(--hungry-caterpillar);
+}
+
+.lastname span:nth-child(6) {
+  color: var(--sunflower);
+}
+
+.lastname span:nth-child(7) {
+  color: var(--fire-engine);
+}
+
+.lastname span:nth-child(8) {
+  color: var(--trump);
+}
+
+
+/* LAST NAME COLOURS FOR TABLET / MOBILE */
+
+.lastname-abridged1 span:nth-child(1) {
+  color: var(--sunflower);
+}
+
+.lastname-abridged1 span:nth-child(2) {
+  color: var(--fire-engine);
+}
+
+.lastname-abridged1 span:nth-child(3) {
+  color: var(--trump);
+}
+
+.lastname-abridged1 span:nth-child(4) {
+  color: var(--dark-red);
+}
+
+.lastname-abridged1 span:nth-child(5) {
+  color: var(--hungry-caterpillar);
+}
+
+.lastname-abridged2 span:nth-child(1) {
+  color: var(--trump);
+}
+
+.lastname-abridged2 span:nth-child(2) {
+  color: var(--fire-engine);
+}
+
+.lastname-abridged2 span:nth-child(3) {
+  color: var(--sunflower);
+}
 
 /* MEDIA QUERIES: TABLET */
 
+
 @media only screen and (max-width: 1135px) {
   
-  .container {
-    background: green;
-  }
-
-  
-
   .content {
+    width: calc(100vw - 120px);
     height: calc(100vh - 120px);
+  }
+  
+  .letters {
     width: 100%;
-    /* center text */
-    align-items: center;  
-    justify-content: space-between;
+    height: 375px;
+    display: flex;     
+    flex-direction: column;
   }
 
-  
+  .firstname, .lastname-abridged1, .lastname-abridged2 {
+    display: flex;
+    justify-content: center;
+    padding-right: 15px;  
+  }
+
+  .lastname {
+    display: none;
+  }
 
   .welcome-message {
-    background: dodgerblue;
+    background: white;
     width: 100%;
+    height: calc(100% - 375px);
+    margin: 0;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
   }
 
+  .welcome-message p {
+    width: 70%;
+  }
 
- 
+  hr {
+    display: inline-block;
+    width: 60px;
+    height: 1px;
+    background-color: var(--dark-gray)
+  }
+  
+  .firstname span:nth-child(1) {
+    padding-right: 9px;
+  }
 
-  /* add separator between p */
+  .firstname span:nth-child(2) {
+    position: relative;
+    bottom: 7px;
+  }
 
 }
 
@@ -71,6 +206,52 @@
 
 @media only screen and (max-width: 600px) {
   .container {
-    background: red;
+    /* background: lightblue; */
   }
+
+  .content {
+    width: calc(100vw - 60px);
+    height: calc(100vh - 60px);
+  }
+  
+  .letters {
+    width: 100%;
+    height: 261px;
+    display: flex;     
+    flex-direction: column;
+  }
+
+  .firstname, .lastname-abridged1, .lastname-abridged2 {
+    display: flex;
+    justify-content: center;  
+  }
+
+
+  .lastname {
+    display: none;
+  }
+
+  .welcome-message {
+    /* background: white; */
+    width: 100%;
+    height: calc(100% - 261px);
+    margin: 0;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+  }
+
+  .welcome-message p {
+    width: 70%;
+    font-size: 22px;
+  }
+
+  hr {
+    display: inline-block;
+    width: 60px;
+    height: 1px;
+    background-color: var(--dark-gray)
+  }
+  
 }
+
