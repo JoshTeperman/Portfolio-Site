@@ -109,8 +109,42 @@ hr {
 }
 
 
+/* LAST NAME COLOURS FOR TABLET / MOBILE */
+
+.lastname-abridged1 span:nth-child(1) {
+  color: var(--sunflower);
+}
+
+.lastname-abridged1 span:nth-child(2) {
+  color: var(--fire-engine);
+}
+
+.lastname-abridged1 span:nth-child(3) {
+  color: var(--trump);
+}
+
+.lastname-abridged1 span:nth-child(4) {
+  color: var(--dark-red);
+}
+
+.lastname-abridged1 span:nth-child(5) {
+  color: var(--hungry-caterpillar);
+}
+
+.lastname-abridged2 span:nth-child(1) {
+  color: var(--trump);
+}
+
+.lastname-abridged2 span:nth-child(2) {
+  color: var(--fire-engine);
+}
+
+.lastname-abridged2 span:nth-child(3) {
+  color: var(--sunflower);
+}
 
 /* MEDIA QUERIES: TABLET */
+
 
 @media only screen and (max-width: 1135px) {
   
