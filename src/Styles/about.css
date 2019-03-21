@@ -13,10 +13,9 @@
   flex-direction: column;
 }
 
-/* .firstname {
-  padding-top: 6px;
-  width: 100%;
-} */
+.two-lines-first, .two-lines-second {
+  display: none;
+}
 
 .about-me {
   width: 100%;
@@ -25,7 +24,7 @@
   justify-content: space-between;
 }
 
-.text {
+.self-introduction{
   height: calc(100% - 80px);
   width: 650px;
   display: flex;
@@ -55,7 +54,7 @@ img {
   padding: 0 90px;
 }
 
-/* FIRST NAME COLOURS */
+/* FIRST NAME COLOURS FOR DESKTOP */
 
 .about span:nth-child(1) {
   color: var(--sunflower);
@@ -83,6 +82,34 @@ img {
   color: var(--dark-red);
 }
 
+/* TITLE COLOURS FOR TABLET & MOBILE  */
+
+.two-lines-first span:nth-child(1) {
+  color: var(--sunflower);
+  padding-right: 20px;
+}
+
+.two-lines-first span:nth-child(2) {
+  color: var(--trump);
+  padding-right: 15px;
+}
+
+.two-lines-first span:nth-child(3) {
+  color: var(--hungry-caterpillar);
+  transform: rotate(45deg);
+  position: relative;
+  bottom: 12px;
+}
+
+.two-lines-second span:nth-child(1) {
+  color: var(--fire-engine);
+  padding-left: 5px;
+}
+
+.two-lines-second span:nth-child(2) {
+  color: var(--dark-red);
+}
+
 
 /* MEDIA QUERIES: TABLET */
 
@@ -90,18 +117,29 @@ img {
 @media only screen and (max-width: 1135px) {
   
   .content {
+    background: lightgray;
     width: calc(100vw - 120px);
     height: calc(100vh - 120px);
   }
   
-  .letters {
+  .single-line {
+    display: none;
+  }
+  
+  .about {
     width: 100%;
     height: 375px;
     display: flex;     
     flex-direction: column;
   }
 
-  .letters {
+  .two-lines-first, .two-lines-second {
+    display: flex;
+    justify-content: center;
+    padding-right: 15px;  
+  }
+
+  .letters-about {
     display: flex;
     justify-content: center;
     padding-right: 15px;  
@@ -155,7 +193,7 @@ img {
     height: calc(100vh - 60px);
   }
   
-  .letters {
+  .letters-about {
     width: 100%;
     height: 261px;
     display: flex;     
