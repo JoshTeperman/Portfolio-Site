@@ -9,7 +9,7 @@
   align-items: center;
 }
 
-.button i {
+.button i, em {
   font-size: 500%;
 }
 

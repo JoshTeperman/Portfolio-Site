@@ -26,7 +26,7 @@
 }
 
 .contact-buttons {
-  width: 70%;
+  width: 90%;
   height: 100%;
   padding: 80px 0 30px 0;
   display: flex;
@@ -35,6 +35,7 @@
   align-items: center;
   flex-wrap: wrap;
 }
+
 
 /* COLOURS FOR DESKTOP */
 
