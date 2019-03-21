@@ -1,0 +1,243 @@
+.container {
+  height: 100vh;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  width: calc(100vw - 160px);
+  height: calc(100vh - 160px);
+  display: flex;
+  flex-direction: column;
+}
+
+.two-lines-first, .two-lines-second {
+  display: none;
+}
+
+.about-me {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.self-introduction{
+  height: calc(100% - 80px);
+  width: 650px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 80px 0 0 0;
+  font-size: 30px;
+  font-size: 30px;
+  color: var(--dark-gray);
+  font-weight: 100;
+
+}
+
+
+hr {
+  display: none;
+}
+
+
+img {
+  min-width: 330px;
+  max-height: 330px;
+  width: auto;
+  height: auto;
+  border-radius: 50%;
+  margin: 80px 20px 0 90px;
+  padding: 0 90px;
+}
+
+/* FIRST NAME COLOURS FOR DESKTOP */
+
+.about span:nth-child(1) {
+  color: var(--sunflower);
+  padding-right: 20px;
+}
+
+.about span:nth-child(2) {
+  color: var(--trump);
+  padding-right: 15px;
+}
+
+.about span:nth-child(3) {
+  color: var(--hungry-caterpillar);
+  transform: rotate(45deg);
+  position: relative;
+  bottom: 12px;
+}
+
+.about span:nth-child(4) {
+  color: var(--fire-engine);
+  padding-left: 5px;
+}
+
+.about span:nth-child(5) {
+  color: var(--dark-red);
+}
+
+/* TITLE COLOURS FOR TABLET & MOBILE  */
+
+.two-lines-first span:nth-child(1) {
+  color: var(--sunflower);
+  padding-right: 20px;
+}
+
+.two-lines-first span:nth-child(2) {
+  color: var(--trump);
+  padding-right: 15px;
+}
+
+.two-lines-first span:nth-child(3) {
+  color: var(--hungry-caterpillar);
+  transform: rotate(45deg);
+  position: relative;
+  bottom: 12px;
+}
+
+.two-lines-second span:nth-child(1) {
+  color: var(--fire-engine);
+  padding-left: 5px;
+}
+
+.two-lines-second span:nth-child(2) {
+  color: var(--dark-red);
+}
+
+/* MEDIA QUERIES: TABLET */
+
+
+@media only screen and (max-width: 1135px) {
+  
+  .content {
+    width: calc(100vw - 120px);
+    height: calc(100vh - 120px);
+  }
+  
+  .single-line {
+    display: none;
+  }
+  
+  .about {
+    width: 100%;
+    height: 250px;
+    display: flex;     
+    flex-direction: column;
+  }
+
+  .two-lines-first, .two-lines-second {
+    display: flex;
+    justify-content: center;
+    padding-right: 15px;  
+  }
+
+  .about-me {
+    width: 100%;
+    height: calc(100% - 250px);
+    margin: 0;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .self-introduction{
+    height: calc(100% - 80px);
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    margin: 0;
+    font-size: 30px;
+    color: var(--dark-gray);
+    font-weight: 100;
+  }
+
+  .self-introduction p hr {
+
+  }
+  
+  img {
+    display: none;
+  }
+
+
+  hr {
+    display: inline-block;
+    width: 60px;
+    height: 1px;
+    background-color: var(--dark-gray)
+  }
+
+  .two-lines-first span:nth-child(1) {
+    padding-right: 9px;
+  }
+
+  .two-lines-second span:nth-child(1) {
+    padding-right: 9px;
+  }
+
+  .two-lines-first span:nth-child(3) {
+    position: relative;
+    bottom: 8px;  
+  }
+
+}
+
+/* MEDIA QUERIES: MOBILE */
+
+@media only screen and (max-width: 600px) {
+
+  .content {
+    width: calc(100vw - 60px);
+    height: calc(100vh - 60px);
+  }
+  
+  .about {
+    width: 100%;
+    height: 174px;
+    display: flex;     
+    flex-direction: column;
+  }
+
+  /* .two-lines-first, .two-lines-second {
+    display: flex;
+    justify-content: center;  
+  } */
+
+
+  .lastname {
+    display: none;
+  }
+
+  .about-me {
+    /*  background: white; */
+    width: 100%;
+    height: calc(100% - 174px);
+    margin: 0;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+  }
+
+  .self-introduction p {
+    width: 100%;
+    font-size: 22px;
+  }
+
+  hr {
+    display: inline-block;
+    width: 60px;
+    height: 1px;
+    background-color: var(--dark-gray)
+  }
+  
+}
+
