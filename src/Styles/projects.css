@@ -47,7 +47,7 @@
   padding-right: 15px;
 }
 
-.projects single-line span:nth-child(3) {
+.projects .single-line span:nth-child(3) {
   color: var(--dark-red);
   transform: rotate(45deg);
   position: relative;
