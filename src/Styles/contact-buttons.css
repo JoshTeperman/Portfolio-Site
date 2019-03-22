@@ -8,9 +8,21 @@
   justify-content: center;
   align-items: center;
 }
-
+/* 
 .button i, em {
   font-size: 500%;
+} */
+
+.button-icon {
+  font-size: 500%;
+  color: var(--dark-gray);
+}
+
+.button-icon:hover {
+  transform: scale(1.1);
+  color: var(--fire-engine);
+  opacity: 0.75;
+
 }
 
 .fa-chess-pawn {
@@ -23,5 +35,9 @@
     margin: 20px;
     height: 45px;
     width: 45px;
+  }
+
+  .button-icon {
+    font-size: 300%;
   }
 }

@@ -23,6 +23,7 @@ nav a {
 nav a:hover {
   /* box-shadow: 0px 3px 0px -2px var(--fire-engine); */
   color: var(--fire-engine);
+  opacity: 0.75;
 
 }
 

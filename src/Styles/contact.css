@@ -122,7 +122,6 @@
 @media only screen and (max-width: 1135px) {
   
   .contact {
-
     position: unset;
   }
 
@@ -143,14 +142,12 @@
   }
 
   .contact-buttons {
-    flex-wrap: wrap-reverse
+    flex-wrap: wrap-reverse;
+    padding: 50px 0 30px 0;
   }
 
 }
 
-nav a {
-  color: red;
-}
 /* MEDIA QUERIES: MOBILE */
 
 @media only screen and (max-width: 600px) {
@@ -166,4 +163,7 @@ nav a {
     flex-direction: column;
   }
 
+  .contact-buttons {
+    padding: 20px 0 30px 0;
+  }
 }
