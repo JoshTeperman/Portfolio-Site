@@ -11,12 +11,23 @@ nav ul {
   display: flex;
   justify-content: flex-end;
   padding: 0 10px 0 0;
+  /* align-items: center; */
+
+}
+
+nav li {
+  height: 100%;
+  padding-top: 5px;
+  display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 nav a {
+
   margin: 0 25px;
   font-size: 20px;
+  height: 100%;
   color: var(--dark-gray);
 }
 
@@ -25,10 +36,6 @@ nav a:hover {
   color: var(--fire-engine);
   opacity: 0.75;
 
-}
-
-nav a {
-  color: var(--dark-gray);
 }
 
 
