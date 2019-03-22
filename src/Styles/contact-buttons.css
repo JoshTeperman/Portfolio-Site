@@ -27,7 +27,7 @@
 
 .fa-chess-pawn {
   position: relative;
-  bottom: 7px;
+  bottom: 5px;
 }
 
 @media only screen and (max-width: 600px) {
