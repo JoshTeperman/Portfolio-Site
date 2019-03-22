@@ -1,7 +1,3 @@
-Describe key events in the development of the internet from the 1980s to today (max. 150 words)
-Define and describes the relationship between fundamental aspects of the internet such as: domains, web servers, DNS, and web browsers (max. 150 words)
-Reflect on one aspect of the development of internet technologies and how it has contributed to the world today (max. 150 words)
-
 This file should contain,
 
 A link (URL) to your published portfolio website
@@ -14,15 +10,17 @@ Description of your portfolio website, including,
 -Screenshots
 -Target audience
 -Tech stack (e.g. html, css, deployment platform, etc)
+
 Design documentation including,
 -Design process
 -Wireframes
 --wireframes, colour schemes, fonts, and mood boarding
 --use of project management tools, such as Trello and Git to obtain the solution
 --Use of images and/or other multimedia (Portfolio makes appropriate use of multimedia and images.)
---Effective use of tables
+--Effective use of tables/grid/flexbox
 -Personal logo (optional)
 -Usability considerations
+
 Details of planning process including,
 -Project plan & timeline
 -Screenshots of Trello board(s)
@@ -44,3 +42,5 @@ Slide deck of your presentation in pdf format
 -A walk-through of your design process and decisions
 -A review of your development/build process including challenges, ethical issues, favourite parts, etc
 -Answer questions from the audience
+
+josht.dev
