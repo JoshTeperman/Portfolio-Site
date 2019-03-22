@@ -77,7 +77,7 @@ hr {
 /* LAST NAME COLOURS FOR DESKTOP*/
 
 .lastname span:nth-child(1) {
-  color: var(--sunflower);
+  color: var(--trump);
 }
 
 .lastname span:nth-child(2) {
@@ -85,7 +85,7 @@ hr {
 }
 
 .lastname span:nth-child(3) {
-  color: var(--trump);
+  color: var(--sunflower);
 }
 
 .lastname span:nth-child(4) {
@@ -112,7 +112,7 @@ hr {
 /* LAST NAME COLOURS FOR TABLET / MOBILE */
 
 .lastname-abridged1 span:nth-child(1) {
-  color: var(--sunflower);
+  color: var(--trump);
 }
 
 .lastname-abridged1 span:nth-child(2) {
@@ -120,7 +120,7 @@ hr {
 }
 
 .lastname-abridged1 span:nth-child(3) {
-  color: var(--trump);
+  color: var(--sunflower);
 }
 
 .lastname-abridged1 span:nth-child(4) {
@@ -132,7 +132,7 @@ hr {
 }
 
 .lastname-abridged2 span:nth-child(1) {
-  color: var(--trump);
+  color: var(--sunflower);
 }
 
 .lastname-abridged2 span:nth-child(2) {
@@ -140,7 +140,7 @@ hr {
 }
 
 .lastname-abridged2 span:nth-child(3) {
-  color: var(--sunflower);
+  color: var(--trump);
 }
 
 /* MEDIA QUERIES: TABLET */
