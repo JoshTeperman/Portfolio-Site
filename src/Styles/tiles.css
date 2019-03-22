@@ -1,8 +1,9 @@
 .tile {
   width: 260px;
-  height: 350px;
+  /* min-height: 280px; */
+  /* height: auto; */
   text-align: center;
-  box-shadow: 0 2px 2px 2px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 2px 2px rgba(20, 18, 18, 0.1);
 }
 
 .tile:hover {
@@ -38,14 +39,9 @@
   /* display: flex; */
 }
 
-/* .project-logo .fab {
-  font-size: 500%;
-} */
-
-.project-logo .fas, .project-logo .fa, .project-logo .fab {
+.logo {
   font-size: 40px;
 }
-
 /* 
 .fa-terminal:before {
   font-size: 500%;
@@ -59,13 +55,18 @@
   /* background: lightblue; */
 }
 
-.project-stack i, em {
-  /* background: red; */
+/* .project-stack i, em {
+
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+} */
+
+.language-logo {
   height: 15px;
   width: 15px;
   border-radius: 50%;
 }
-
 
 .project-stack h4 {
   margin: 0 10px;

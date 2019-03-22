@@ -39,13 +39,19 @@ nav a {
 
   nav ul {
     justify-content: center;
+
+  }
+
+  nav a {
+    font-size: 15px;
+    margin: 10px;
   }
 }
 
 
-@media only screen and (max-width: 1135px) {
+@media only screen and (max-width: 600px) {
   nav {
-    height: 3px;
+    height: 30px;
     top: calc(100vh - 30px);  
   }
 
