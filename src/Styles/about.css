@@ -137,10 +137,13 @@ img {
     flex-direction: column;
   }
 
-  .two-lines-first, .two-lines-second {
+  .projects .two-lines-first, .two-lines-second {
     display: flex;
     justify-content: center;
-    padding-right: 15px;  
+  }
+
+  .projects .two-lines-first {
+    padding-left: 10px;
   }
 
   .about-me {
