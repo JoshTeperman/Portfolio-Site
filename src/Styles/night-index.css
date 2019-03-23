@@ -1,0 +1,38 @@
+@import './Night/night-home.css';
+@import './Night/night-about.css';
+@import './Night/night-projects.css';
+@import './Night/night-contact.css';
+@import './Night/night-letters.css';
+@import './Night/night-nav.css';
+@import './Night/night-tiles.css';
+@import './Night/night-contact-buttons.css';
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+
+:root {
+  /*  colours  */
+  --pink-red: #FF5567;
+  --pink-purple: #C933C9;
+  --lavender: #9733FF;
+  --navy: #6861BD;
+  --sky-blue: #33CDDF;
+  --green: #33C773;
+  --yellow: rgb(255, 235, 51); 
+  --pink: #FF86B9;
+  --orange: #FF9E33;
+  --charcoal: #333333;
+  --ash: #434343;
+}
+
+* {
+  margin: 0px;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+

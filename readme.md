@@ -1,18 +1,56 @@
-  This file should contain,
+# PORTFOLIO WEBSITE
+_The following content is required as part of rubric for Coder Academy Diploma Accreditation_
 
-A link (URL) to your published portfolio website
-A link to your GitHub repository
--Ensure the repository (repo) is accessible by your Educators
-Description of your portfolio website, including,
--Purpose
--Functionality / features
--Sitemap
--Screenshots
--Target audience
--Tech stack (e.g. html, css, deployment platform, etc)
+Website: www.josht.dev <br>
+[GitHub Repository](https://github.com/JoshTeperman/Portfolio-Site)
 
-Design documentation including,
--Design process
+This website is the developer portfolio for Josh Teperman. The intended audience for this website includes: potential employers, recruiters, and the developer community as a means of sharing ideas and open source code. It is also intended to be a core piece of my public face on the internet. 
+
+#### Sitemap:
+- Home 
+- About
+- Projects
+- Contact
+
+#### Website Content & Features
+  * Responsive to three screen sizes (Desktop, Tablet, Mobile)
+  * Professional Photo
+  * Welcome page with links to CV and Blog 
+  * Description of recent work history in Australia and Overseas
+  * List of projects & links to GitHub repositories
+  * Variety of contact options
+  * Two different colour schemes (normal and night mode)
+
+#### Tech Stack
+- HTML
+- CSS
+
+#### Screenshots
+[HOME](screenshot) <br>
+[ABOUT](screenshot) <br>
+[PROJECTS](screenshot) <br>
+[CONTACTS](screenshot) <br>
+
+## DESIGN DOCUMENTATION
+
+### Design process
+
+To design my site I drew on several resources for inspiration, including <br>
+* reviewing portfolio websites of other designers and developers 
+  - [Example 1](https://www.mockplus.com/blog/post/web-developer-portfolio) <br>
+  - [Example 2](https://codeburst.io/10-awesome-web-developer-portfolios-d266b32e6154) <br>
+
+Figma and Trello
+
+[Figma Link - See here for full document](https://www.figma.com/file/I5aZ8kwm7nnAs7RhYkU3LJye/Portfolio-Site?node-id=0%3A1)<br> 
+
+[Figma Screenshot 1](screenshot) <br> 
+[Figma Screenshot 2](screenshot) <br>
+[Figma Screenshot 3](screenshot) <br>
+
+
+
+
 -Wireframes
 --wireframes, colour schemes, fonts, and mood boarding
 --use of project management tools, such as Trello and Git to obtain the solution
