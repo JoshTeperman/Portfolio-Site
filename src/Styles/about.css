@@ -140,6 +140,7 @@ img {
   .projects .two-lines-first, .two-lines-second {
     display: flex;
     justify-content: center;
+    padding-right: 19px;
   }
 
   .projects .two-lines-first {

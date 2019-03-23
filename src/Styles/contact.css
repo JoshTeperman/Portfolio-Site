@@ -81,20 +81,18 @@
 
 .contact .two-lines-first span:nth-child(1) {
   color: var(--sunflower);
-  padding-right: 11px;
+  padding-right: 6px;
 }
 
 .contact .two-lines-first span:nth-child(2) {
   color: var(--trump);
   transform: rotate(45deg);
   position: relative;
-  bottom: 8px;
-  /* padding-right: 15px; */
+  bottom: 7px;
 }
 
 .contact .two-lines-first span:nth-child(3) {
   color: var(--hungry-caterpillar);
-  padding-left: 10px;
 
 }
 

@@ -13,6 +13,10 @@
   flex-direction: column;
 }
 
+.joshteperman {
+  padding-right: 28px;
+}
+
 .firstname {
   padding-top: 6px;
   width: 100%;
@@ -163,7 +167,6 @@ hr {
   .firstname, .lastname-abridged1, .lastname-abridged2 {
     display: flex;
     justify-content: center;
-    padding-right: 15px;  
   }
 
   .lastname {
