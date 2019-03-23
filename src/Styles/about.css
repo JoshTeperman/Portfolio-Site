@@ -17,6 +17,10 @@
   display: none;
 }
 
+.about .two-lines-first {
+  padding-right: 20px;
+}
+
 .smallscr-photo {
   display: none;
 }
@@ -137,10 +141,14 @@ img {
     flex-direction: column;
   }
 
+  .projects {
+    padding-left: 2px;
+  }
+
   .projects .two-lines-first, .two-lines-second {
     display: flex;
     justify-content: center;
-    padding-right: 19px;
+
   }
 
   .projects .two-lines-first {
