@@ -37,7 +37,7 @@
 
 .projects span:nth-child(1) {
   color: var(--sunflower);
-  padding-right: 20px;
+  padding-right: 10px;
   /* position: relative:
   left: 10px; */
 }
@@ -80,7 +80,7 @@
 
 .projects .two-lines-first span:nth-child(1) {
   color: var(--sunflower);
-  padding-right: 20px;
+  /* padding: 0 10px; */
 }
 
 .projects .two-lines-first span:nth-child(2) {
@@ -156,6 +156,10 @@
   .tile:nth-child(n+3) {
     display: none;
   }
+
+  .projects .letters span {
+    letter-spacing: -35px;
+  }
 }
 
 /* MEDIA QUERY: MOBILE */
@@ -178,7 +182,12 @@
     height: calc(100% - 174px);
   }
 
+  .projects .letters span {
+    letter-spacing: -30px;
+  }
+  
   .tile:nth-child(n+2) {
     display: none;
   }
+
 }
