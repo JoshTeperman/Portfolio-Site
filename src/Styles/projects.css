@@ -122,11 +122,9 @@
 
 @media only screen and (max-width: 1135px) {
   
-  
   .content {
     width: calc(100vw - 120px);
     height: calc(100vh - 120px);
-    /* height: auto; */
   }
   
   .single-line {
@@ -158,9 +156,7 @@
   .tile:nth-child(n+3) {
     display: none;
   }
-
 }
-
 
 /* MEDIA QUERY: MOBILE */
 
