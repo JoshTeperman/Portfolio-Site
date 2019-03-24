@@ -4,7 +4,7 @@
   /* height: auto; */
   text-align: center;
   box-shadow: 0 2px 2px 2px rgba(20, 18, 18, 0.1);
-  color: var(--dark-gray);
+  color: white;
 }
 
 .tile:hover {
@@ -20,11 +20,11 @@
 }
 
 .project-links a {
-  color: var(--dark-gray);
+  color: white;
 }
 
 .project-links a:hover {
-  color: var(--fire-engine);
+  color: var(--pink-red);
   opacity: 0.75;
 }
 
@@ -56,7 +56,7 @@
 
 .logo {
   font-size: 40px;
-  color: var(--dark-red);
+  color: var(--pink-red);
   opacity: 0.75;
 
 }
@@ -110,7 +110,7 @@
 
 .project-description p {
   font-size: 17px;
-  color: var(--dark-gray);
+  color: white;
   margin: 10px;
   height: auto;
 }
