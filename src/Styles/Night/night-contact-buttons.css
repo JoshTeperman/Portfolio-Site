@@ -1,0 +1,43 @@
+.button {
+  /* background: red; */
+  margin: 30px;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* 
+.button i, em {
+  font-size: 500%;
+} */
+
+.button-icon {
+  font-size: 500%;
+  color: white;
+}
+
+.button-icon:hover {
+  transform: scale(1.1);
+  color: var(--pink-red);
+  opacity: 0.75;
+
+}
+
+.fa-chess-pawn {
+  position: relative;
+  bottom: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+  .button {
+    margin: 20px;
+    height: 45px;
+    width: 45px;
+  }
+
+  .button-icon {
+    font-size: 300%;
+  }
+}

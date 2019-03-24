@@ -1,6 +1,6 @@
 .container {
   height: 100vh;
-  background: white;
+  background: var(--charcoal);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -42,113 +42,113 @@
 .welcome-message p {
   /* margin: 20px; */
   font-size: 30px;
-  color: var(--dark-gray);
+  color: white;
   font-weight: 100;
 }
 
 .welcome-message a {
   text-decoration: none;
-  color: var(--notdodgerblue);
+  color: var(--sky-blue);
+}
+
+#day-mode-toggle {
+  color: var(--yellow);
 }
 
 hr {
   display: none;
 }
 
-#night-mode-toggle {
-  color: purple;
-}
-
 /* FIRST NAME COLOURS */
 
 .firstname span:nth-child(1) {
-  color: var(--sunflower);
+  color: var(--pink-red);
   padding-right: 20px;
 }
 
 .firstname span:nth-child(2) {
-  color: var(--trump);
+  color: var(--pink-purple);
   transform: rotate(45deg);
   position: relative;
   bottom: 12px;
 }
 
 .firstname span:nth-child(3) {
-  color: var(--dark-red);
+  color: var(--lavender);
   padding-left: 5px;
 }
 
 .firstname span:nth-child(4) {
-  color: var(--fire-engine);
+  color: var(--navy);
 }
 
 /* LAST NAME COLOURS FOR DESKTOP*/
 
 .lastname span:nth-child(1) {
-  color: var(--trump);
+  color: var(--sky-blue);
 }
 
 .lastname span:nth-child(2) {
-  color: var(--fire-engine);
+  color: var(--green);
 }
 
 .lastname span:nth-child(3) {
-  color: var(--sunflower);
+  color: var(--yellow);
 }
 
 .lastname span:nth-child(4) {
-  color: var(--dark-red);
+  color: var(--pink);
 }
 
 .lastname span:nth-child(5) {
-  color: var(--hungry-caterpillar);
+  color: var(--orange);
 }
 
 .lastname span:nth-child(6) {
-  color: var(--sunflower);
+  color: var(--pink-red);
 }
 
 .lastname span:nth-child(7) {
-  color: var(--fire-engine);
+  color: var(--pink-purple);
 }
 
 .lastname span:nth-child(8) {
-  color: var(--trump);
+  color: var(--lavender);
 }
 
 
 /* LAST NAME COLOURS FOR TABLET / MOBILE */
 
 .lastname-abridged1 span:nth-child(1) {
-  color: var(--trump);
+  color: var(--sky-blue);
 }
 
 .lastname-abridged1 span:nth-child(2) {
-  color: var(--fire-engine);
+  color: var(--green);
 }
 
 .lastname-abridged1 span:nth-child(3) {
-  color: var(--sunflower);
+  color: var(--yellow);
 }
 
 .lastname-abridged1 span:nth-child(4) {
-  color: var(--dark-red);
+  color: var(--pink);
 }
 
 .lastname-abridged1 span:nth-child(5) {
-  color: var(--hungry-caterpillar);
+  color: var(--orange);
 }
 
 .lastname-abridged2 span:nth-child(1) {
-  color: var(--sunflower);
+  color: var(--pink-red);
 }
 
 .lastname-abridged2 span:nth-child(2) {
-  color: var(--fire-engine);
+  color: var(--pink-purple);
 }
 
 .lastname-abridged2 span:nth-child(3) {
-  color: var(--trump);
+  color: var(--lavender);
 }
 
 /* MEDIA QUERIES: TABLET */
@@ -178,7 +178,7 @@ hr {
   }
 
   .welcome-message {
-    background: white;
+    background: var(--charcoal);
     width: 100%;
     height: calc(100% - 375px);
     margin: 0;
