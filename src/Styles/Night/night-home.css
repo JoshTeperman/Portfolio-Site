@@ -178,7 +178,7 @@ hr {
   }
 
   .welcome-message {
-    background: white;
+    background: var(--charcoal);
     width: 100%;
     height: calc(100% - 375px);
     margin: 0;
