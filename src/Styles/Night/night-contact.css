@@ -1,7 +1,7 @@
 .container {
   
   height: 100vh;
-  background: white;
+  background: var(--charcoal);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -40,14 +40,14 @@
 /* COLOURS FOR DESKTOP */
 
 .contact span:nth-child(1) {
-  color: var(--sunflower);
+  color: var(--pink-red);
   padding-right: 20px;
   /* position: relative:
   left: 10px; */
 }
 
 .contact .single-line span:nth-child(2) {
-  color: var(--trump);
+  color: var(--pink-purple);
   transform: rotate(45deg);
   position: relative;
   bottom: 12px;
@@ -55,63 +55,63 @@
 }
 
 .contact span:nth-child(3) {
-  color: var(--fire-engine);
+  color: var(--lavender);
 
 }
 
 .contact span:nth-child(4) {
-  color: var(--hungry-caterpillar);
+  color: var(--navy);
 }
 
 .contact span:nth-child(5) {
-  color: var(--sunflower);
+  color: var(--sky-blue);
   padding-left: 5px;
 }
 
 .contact span:nth-child(6) {
-  color: var(--trump);
+  color: var(--green);
   padding-left: 5px;
 }
 
 .contact span:nth-child(7) {
-  color: var(--dark-red);
+  color: var(--yellow);
 } 
 
 /* TITLE COLOURS FOR TABLET & MOBILE  */
 
 .contact .two-lines-first span:nth-child(1) {
-  color: var(--sunflower);
+  color: var(--pink-red);
   padding-right: 6px;
 }
 
 .contact .two-lines-first span:nth-child(2) {
-  color: var(--trump);
+  color: var(--pink-purple);
   transform: rotate(45deg);
   position: relative;
   bottom: 7px;
 }
 
 .contact .two-lines-first span:nth-child(3) {
-  color: var(--hungry-caterpillar);
+  color: var(--lavender);
 
 }
 
 .contact .two-lines-first span:nth-child(4) {
-  color: var(--fire-engine);
+  color: var(--sky-blue);
 }
 
 .contact .two-lines-second span:nth-child(1) {
-  color: var(--fire-engine);
+  color: var(--green);
   padding: 0px;
 
 }
 
 .contact .two-lines-second span:nth-child(2) {
-  color: var(--dark-red);
+  color: var(--yellow);
 }
 
 .contact .two-lines-second span:nth-child(3) {
-  color: var(--sunflower);
+  color: var(--pink);
   /* padding-left: 5px; */
 }
 

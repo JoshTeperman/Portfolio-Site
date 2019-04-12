@@ -1,6 +1,6 @@
 .container {
   height: 100vh;
-  background: white;
+  background: var(--charcoal);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -24,7 +24,6 @@
 }
 
 .project-tiles {
-  /* background: lightgreen; */
   width: 100%;
   height: 100%;
   margin-top: 60px;
@@ -36,86 +35,86 @@
 /* COLOURS FOR DESKTOP */
 
 .projects span:nth-child(1) {
-  color: var(--sunflower);
+  color: var(--pink-red);
   padding-right: 10px;
   /* position: relative:
   left: 10px; */
 }
 
 .projects span:nth-child(2) {
-  color: var(--trump);
+  color: var(--pink-purple);
   padding-right: 15px;
 }
 
 .projects .single-line span:nth-child(3) {
-  color: var(--dark-red);
+  color: var(--lavender);
   transform: rotate(45deg);
   position: relative;
   bottom: 12px;
 }
 
 .projects span:nth-child(4) {
-  color: var(--hungry-caterpillar);
+  color: var(--navy);
 }
 
 .projects span:nth-child(5) {
-  color: var(--fire-engine);
+  color: var(--sky-blue);
   padding-left: 5px;
 }
 
 .projects span:nth-child(6) {
-  color: var(--sunflower);
+  color: var(--green);
   padding-left: 5px;
 }
 
 .projects span:nth-child(7) {
-  color: var(--trump);
+  color: var(--yellow);
 }
 
 .projects span:nth-child(8) {
-  color: var(--dark-red);
+  color: var(--pink);
 }
 
 /* COLOURS FOR TABLET & MOBILE  */
 
 .projects .two-lines-first span:nth-child(1) {
-  color: var(--sunflower);
+  color: var(--pink-red);
   /* padding: 0 10px; */
 }
 
 .projects .two-lines-first span:nth-child(2) {
-  color: var(--trump);
+  color: var(--pink-purple);
   padding-right: 15px;
 }
 
 .projects .two-lines-first span:nth-child(3) {
-  color: var(--hungry-caterpillar);
+  color: var(--lavender);
   transform: rotate(45deg);
   position: relative;
   bottom: 12px;
 }
 
 .projects .two-lines-first span:nth-child(4) {
-  color: var(--fire-engine);
+  color: var(--navy);
 }
 
 .projects .two-lines-second span:nth-child(1) {
-  color: var(--dark-red);
+  color: var(--sky-blue);
   padding-left: 5px;
 }
 
 .projects .two-lines-second span:nth-child(2) {
-  color: var(--fire-engine);
+  color: var(--green);
   padding-right: 0px;
 }
 
 .projects .two-lines-second span:nth-child(3) {
-  color: var(--sunflower);
+  color: var(--yellow);
   padding-left: 5px;
 }
 
 .projects .two-lines-second span:nth-child(4) {
-  color: var(--trump);
+  color: var(--pink);
 }
 
 

@@ -15,12 +15,12 @@
 
 .button-icon {
   font-size: 500%;
-  color: var(--dark-gray);
+  color: white;
 }
 
 .button-icon:hover {
   transform: scale(1.1);
-  color: var(--fire-engine);
+  color: var(--pink-red);
   opacity: 0.75;
 
 }
