@@ -32,11 +32,11 @@
 
 .welcome-message {
   height: calc(100% - 366px);
-  width: 820px;
+  width: 1000px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin: 80px 0 0 0;
+  margin: 70px 0 0 0;
 }
 
 .welcome-message p {
@@ -53,10 +53,6 @@
 
 hr {
   display: none;
-}
-
-#night-mode-toggle {
-  color: purple;
 }
 
 /* FIRST NAME COLOURS */
