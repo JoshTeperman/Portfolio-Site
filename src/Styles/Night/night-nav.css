@@ -3,10 +3,18 @@ nav {
   top: 0;
   height: 80px;
   width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#light-mode-toggle {
+  height: 80px;
+  color: yellow;
 }
 
 nav ul {
-  height: 100%;
+  height: 80%;
   list-style: none;
   display: flex;
   justify-content: flex-end;
@@ -27,7 +35,7 @@ nav a {
 
   margin: 0 25px;
   font-size: 20px;
-  height: 100%;
+  /* height: 100%; */
   color: white;
 }
 
