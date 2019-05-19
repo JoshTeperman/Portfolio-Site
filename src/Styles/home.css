@@ -32,7 +32,7 @@
 
 .welcome-message {
   height: calc(100% - 366px);
-  width: 1000px;
+  width: 800px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -52,7 +52,7 @@
 }
 
 hr {
-  display: none;
+  /* display: none; */
 }
 
 /* FIRST NAME COLOURS */
