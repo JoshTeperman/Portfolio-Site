@@ -32,6 +32,7 @@
 
 .welcome-message {
   height: calc(100% - 366px);
+  max-height: 250px;
   width: 800px;
   display: flex;
   flex-direction: column;
